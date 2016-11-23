@@ -6,6 +6,7 @@ body {
 #header {
 	background-color:black;
 	margin-bottom: 0.1em;
+	margin-top: 0.05em;
 	height: 4.6em;
 	border-radius: 1em;
 	border: 0.1em black solid;
@@ -80,11 +81,12 @@ ul {
 	padding-top: 0.3em;
 	padding-left: 0.5em;
 	width: 64%;
-	height: 50em;
+	height: 45em;
 	font-size: 0.9em;
 	background-color: antiquewhite;
 	border-radius: 1em;
 	border: 0.07em black solid;
+	margin-bottom: 1em;
 }
 
 g{
@@ -105,10 +107,11 @@ g{
 	float: right;
 	width: 34.5%;
 	padding-top: 0.3em;
-	height: 50em;
+	height: 45em;
 	font-size: 0.9em;
 	background-color: aliceblue;
 	border-radius: 1em;
 	border: 0.07em black solid;
+	margin-bottom: 1em;
 
 }
