@@ -124,9 +124,9 @@
         
         <script>
                     var width = 500;	
-	                var height = 170;	
+	            var height = 170;	
 
-	                var rectsvg = d3.select("body").select(".graph")			
+	            var rectsvg = d3.select("body").select(".graph")			
 				                    .append("svg")				
 				                    .attr("width", width)		
 				                    .attr("height", height);
@@ -135,13 +135,13 @@
                     var skills = ["SQL", "Python", "SAS", "R", "JavaScript", "HTML & CSS", "Tableau"];
         
 
-	                var linear = d3.scale.linear()
-					                .domain([0, d3.max(dataset)])
-					                .range([0, 250]);                
+	            var linear = d3.scale.linear()
+					 .domain([0, d3.max(dataset)])
+					 .range([0, 250]);                
                     var rectHeight = 25;	
                     var yposition = 25 * dataset.length;
         
-	                var rects = rectsvg.selectAll("rect")
+	            var rects = rectsvg.selectAll("rect")
 		                            .data(dataset)
 		                            .enter()
 		                            .append("rect")
